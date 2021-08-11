@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rajdhani', sans-serif;
+  margin: 1.5rem;
+  background-image: url(../img/conor-luddy-IVaKksEZmZA-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(230, 221, 221);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   width: 50%;
+   height: 51px;
+   list-style: none;
+ }
+
+
+a {
+  text-decoration: none;
+  padding: 15px 25px;
+  color: rgb(230, 221, 221);
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 9px;
+  text-decoration-thickness: 2px;
+  background-color:rgb(58, 56, 56)
+}
+
+.fab {
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  top: 25vh;
+  height: 200px;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+
+
+.btn {
+  color: rgb(230, 221, 221);
+  box-shadow: 0px 0px 20px rgb(253, 252, 252);
+  transition: all 1s; 
+}
+
+.btn:hover {
+  background-color: Transparent;
+  box-shadow: 0px 0px 15px rgb(165, 157, 157);
+  transition: all 1s;  
+}
